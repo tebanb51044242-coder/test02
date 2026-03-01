@@ -1,0 +1,99 @@
+.container {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(180deg, #cfcfcf, #a9a9a9);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: transparent;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.activeText {
+  color: #2ecc71;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 16px;
+  padding-top: 10px;
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+ margin-top: 0px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 4px 0;
+  gap: 16px;
+  align-items: center;
+}
+
+.row span {
+  color: #777;
+}
+
+.label {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 4px;
+  display: block;
+  text-align: left;
+  flex: 0 0 45%;
+  margin-top: 20px;
+}
+
+.value {
+  font-size: 12px;   /* 👈 aquí bajas el tamaño */
+  color: #444;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.name {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f2741;
+  margin-bottom: 12px;
+}
